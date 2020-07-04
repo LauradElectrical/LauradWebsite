@@ -16,7 +16,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <!-- Links (sit on top) -->
 <div class="w3-top">
-  <div class="w3-row w3-large w3-light-grey">
+  <div class="w3-row w3-large w3-indigo">
     <div class="w3-col s3">
       <a href="#" class="w3-button w3-block">Home</a>
     </div>
@@ -42,9 +42,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <!-- Slideshow -->
   <div class="w3-container">
     <div class="w3-display-container mySlides">
-      <img src="https://lauradelectrical.github.io/LauradWebsite/Tester.jpg" style="width:100%">
+      <img src="https://lauradelectrical.github.io/LauradWebsite/Tools.jpg" style="width:100%">
       <div class="w3-display-topleft w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Planning</span>
+        <span class="w3-blue w3-padding-large w3-animate-bottom">Planning</span>
       </div>
     </div>
     <div class="w3-display-container mySlides">
@@ -54,7 +54,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       </div>
     </div>
     <div class="w3-display-container mySlides">
-      <img src="https://lauradelectrical.github.io/LauradWebsite/Tools.jpg" style="width:100%">
+      <img src="https://lauradelectrical.github.io/LauradWebsite/Tester.jpg" style="width:100%">
       <div class="w3-display-topright w3-container w3-padding-32">
         <span class="w3-white w3-padding-large w3-animate-bottom">Safety First</span>
       </div>
@@ -65,9 +65,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
     
       <div class="w3-center">
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-blue" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-blue" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-blue" onclick="currentDiv(3)"></span>
       </div>
     </div>
   </div>
@@ -157,15 +157,26 @@ We are an electrical services company that handles most matters electrical inclu
     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
   </div>
 
-  <form class="w3-container" action="/action_page.php" target="_blank">
+  <form class="w3-container" action="https://formspree.io/mzbjjezj" method="POST" target="_blank">
     <div class="w3-section">
       <label>Name</label>
       <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
     </div>
     <div class="w3-section">
       <label>Email</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email">
     </div>
+    <div class="w3-section">
+      <label>Phone</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Phone">
+    </div>
+       <div class="w3-section">
+      <label>Preferred method of initial contact</label><br>
+      <input type="radio" id="phone" name="Preferred contact method" value="phone">
+  <label for="phone">Phone</label><br>
+  <input type="radio" id="email" name="Preferred contact method" value="email">
+  <label for="email">Email</label>
+  </div>
     <div class="w3-section">
       <label>Subject</label>
       <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
@@ -182,7 +193,7 @@ We are an electrical services company that handles most matters electrical inclu
 <!-- Footer -->
 
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-  <h4>Footer</h4>
+      <img src="https://lauradelectrical.github.io/LauradWebsite/LauradBanner.jpg" style="width:100%">
   <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
